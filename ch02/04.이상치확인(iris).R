@@ -31,11 +31,8 @@ for (species in c('setosa','versicoler','virginica')){
                     length(outliers),'개입니다.'))
     }
 }
-
-boxplot(iris[iris$Species == 'setosa','Sepal.Widthe'])
-boxplot(iris[iris$Species == 'setosa','Petal.Lengthe'])
-boxplot(iris[iris$Species == 'setosa','Peta.Widthe'])
-boxplot(iris[iris$Species == 'virginica','Petal.Length'])
-boxplot(iris[iris$Species == 'virginica','Sepal.Widthe'])
-
-
+boxplot(iris[iris$Species == 'setosa', 'Sepal.Width'])
+boxplot(iris[iris$Species == 'setosa', 'Petal.Length'])
+boxplot(iris[iris$Species == 'setosa', 'Petal.Width'])
+boxplot(iris[iris$Species == 'virginica', 'Sepal.Length'])
+boxplot(iris[iris$Species == 'virginica', 'Sepal.Width'])
