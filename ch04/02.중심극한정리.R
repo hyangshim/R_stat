@@ -85,4 +85,4 @@ hist(b64.mean,prob=T,xlab = '',ylab = '',xlim=c(0,4),main = '표본크기 : 64',
 x4=seq(min(b64.mean),max(b64.mean),length=1000)
 y4=dnorm(x4,mean=1,sd=sqrt(0.9)/sqrt(64))
 lines(x4,y4,lty=2,lwd=2,col='blue')
-par(mfrow=c(1,1))
+par(mfrow=c(1,1))   #2행 2열을 원위치로
