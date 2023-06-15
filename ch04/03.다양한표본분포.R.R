@@ -1,5 +1,5 @@
 
-widdowsFonts(malgun='맑은 고딕')
+windowsFonts(malgun='맑은 고딕')
 par(mfrow=c(1,1),family='malgun',oma=c(0,0,0,0))
 
 ##### T 분포
